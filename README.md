@@ -16,5 +16,5 @@
 |Dla ilu osób przydatna|`span[id^="votes-yes"]`<br>`button.vote-yes["data-total-vote]`<br>`button.vote-yes > span`|useful||
 |Dla ilu osób nieprzydatna|`span[id^="votes-no"]`<br>`button.vote-no["data-total-vote]`<br>`button.vote-no > span`|useless|| 
 |Czy potwierdzona zakupem|`div.review-pz`|purchased||
-|Data wystawienia opiniii|`span.user-post__published > time:nthchild(1)["datatime"]]`|review_date||
-|Data zakupu produktu|`span.user-post__published > time:nthchild(2)["datatime"]]`|purchase_date||
+|Data wystawienia opiniii|`span.user-post__published > time:nthchild(1)["datatime"]`|review_date||
+|Data zakupu produktu|`span.user-post__published > time:nthchild(2)["datatime"]`|purchase_date||
